@@ -10,106 +10,106 @@ echo -ne '[msg]##' > /dev/ttyUSB0
 ```
 {
   "configs": {
-    "ssid": "brisa-2702988",
-    "password": "o5du40iw",
-    "broker": "192.168.0.12",
-    "broker_user":"tocktec.com.br",
-    "broker_pass":"tock30130tecnologia",
+    "ssid": "izaias",
+    "password": "izaiascomz",
+    "broker": "192.168.241.181",
+    "broker_user": "tocktec.com.br",
+    "broker_pass": "tock30130tecnologia",
     "device": "esp32-wroom",
     "id": "94e6863ce91c",
     "pins": [
       {
-        "softwarePin": 25,
+        "softwarePin": 9,
         "hardwarePin": 15,
         "state": 1,
         "mode": "out"
       },
       {
-        "softwarePin": 26,
+        "softwarePin": 10,
         "hardwarePin": 2,
         "state": 1,
         "mode": "out"
       },
       {
-        "softwarePin": 27,
+        "softwarePin": 11,
         "hardwarePin": 0,
         "state": 1,
         "mode": "out"
       },
       {
-        "softwarePin": 28,
+        "softwarePin": 12,
         "hardwarePin": 4,
         "state": 1,
         "mode": "out"
       },
       {
-        "softwarePin": 29,
+        "softwarePin": 13,
         "hardwarePin": 16,
         "state": 1,
         "mode": "out"
       },
       {
-        "softwarePin": 30,
+        "softwarePin": 14,
         "hardwarePin": 17,
         "state": 1,
         "mode": "out"
       },
       {
-        "softwarePin": 31,
+        "softwarePin": 15,
         "hardwarePin": 5,
         "state": 1,
         "mode": "out"
       },
       {
-        "softwarePin": 24,
+        "softwarePin": 16,
         "hardwarePin": 18,
         "state": 1,
         "mode": "out"
       },
       {
-        "softwarePin": 17,
+        "softwarePin": 1,
         "hardwarePin": 13,
         "state": 1,
         "mode": "out"
       },
       {
-        "softwarePin": 18,
+        "softwarePin": 2,
         "hardwarePin": 12,
         "state": 1,
         "mode": "out"
       },
       {
-        "softwarePin": 19,
+        "softwarePin": 3,
         "hardwarePin": 14,
         "state": 1,
         "mode": "out"
       },
       {
-        "softwarePin": 20,
+        "softwarePin": 4,
         "hardwarePin": 27,
         "state": 1,
         "mode": "out"
       },
       {
-        "softwarePin": 21,
+        "softwarePin": 5,
         "hardwarePin": 26,
         "state": 1,
         "mode": "out"
       },
       {
-        "softwarePin": 22,
+        "softwarePin": 6,
         "hardwarePin": 25,
         "state": 1,
         "mode": "out"
       },
       {
-        "softwarePin": 23,
+        "softwarePin": 7,
         "hardwarePin": 33,
         "state": 1,
         "mode": "out"
       },
       {
-        "softwarePin": 24,
+        "softwarePin": 8,
         "hardwarePin": 32,
         "state": 1,
         "mode": "out"
@@ -120,6 +120,6 @@ echo -ne '[msg]##' > /dev/ttyUSB0
 ```
 - msg: 
 ```
-{"configs":{"ssid":"izaias","password":"izaiascomz","broker":"192.168.241.180","broker_user":"tocktec.com.br","broker_pass":"tock30130tecnologia","device":"esp32-wroom","id":"94e6863ce91c","pins":[{"softwarePin":25,"hardwarePin":15,"state":1,"mode":"out"},{"softwarePin":26,"hardwarePin":2,"state":1,"mode":"out"},{"softwarePin":27,"hardwarePin":0,"state":1,"mode":"out"},{"softwarePin":28,"hardwarePin":4,"state":1,"mode":"out"},{"softwarePin":29,"hardwarePin":16,"state":1,"mode":"out"},{"softwarePin":30,"hardwarePin":17,"state":1,"mode":"out"},{"softwarePin":31,"hardwarePin":5,"state":1,"mode":"out"},{"softwarePin":24,"hardwarePin":18,"state":1,"mode":"out"},{"softwarePin":17,"hardwarePin":13,"state":1,"mode":"out"},{"softwarePin":18,"hardwarePin":12,"state":1,"mode":"out"},{"softwarePin":19,"hardwarePin":14,"state":1,"mode":"out"},{"softwarePin":20,"hardwarePin":27,"state":1,"mode":"out"},{"softwarePin":21,"hardwarePin":26,"state":1,"mode":"out"},{"softwarePin":22,"hardwarePin":25,"state":1,"mode":"out"},{"softwarePin":23,"hardwarePin":33,"state":1,"mode":"out"},{"softwarePin":24,"hardwarePin":32,"state":1,"mode":"out"}]}}
+{"configs":{"ssid":"izaias","password":"izaiascomz","broker":"192.168.241.181","broker_user":"tocktec.com.br","broker_pass":"tock30130tecnologia","device":"esp32-wroom","id":"94e6863ce91c","pins":[{"softwarePin":9,"hardwarePin":15,"state":1,"mode":"out"},{"softwarePin":10,"hardwarePin":2,"state":1,"mode":"out"},{"softwarePin":11,"hardwarePin":0,"state":1,"mode":"out"},{"softwarePin":12,"hardwarePin":4,"state":1,"mode":"out"},{"softwarePin":13,"hardwarePin":16,"state":1,"mode":"out"},{"softwarePin":14,"hardwarePin":17,"state":1,"mode":"out"},{"softwarePin":15,"hardwarePin":5,"state":1,"mode":"out"},{"softwarePin":16,"hardwarePin":18,"state":1,"mode":"out"},{"softwarePin":1,"hardwarePin":13,"state":1,"mode":"out"},{"softwarePin":2,"hardwarePin":12,"state":1,"mode":"out"},{"softwarePin":3,"hardwarePin":14,"state":1,"mode":"out"},{"softwarePin":4,"hardwarePin":27,"state":1,"mode":"out"},{"softwarePin":5,"hardwarePin":26,"state":1,"mode":"out"},{"softwarePin":6,"hardwarePin":25,"state":1,"mode":"out"},{"softwarePin":7,"hardwarePin":33,"state":1,"mode":"out"},{"softwarePin":8,"hardwarePin":32,"state":1,"mode":"out"}]}}
 ```
 
