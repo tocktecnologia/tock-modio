@@ -16,7 +16,6 @@ ArduinoJson6200_F1::DynamicJsonDocument retrieveConfigFromMemory()
     // SPIFFS.format();
 
     DynamicJsonDocument configJson(FILE_CONFIG_SIZE);
-    // String configJsonStr;
 
     Serial.println("mounting FS ...");
     if (SPIFFS.begin())
@@ -35,8 +34,8 @@ ArduinoJson6200_F1::DynamicJsonDocument retrieveConfigFromMemory()
                 auto deserializeError = deserializeJson(configJson, buf.get());
                 if (!deserializeError)
                 {
-                    serializeJson(configJson, Serial);
                     wroom32ConfigPins(configJson);
+                    serializeJson(configJson, Serial);
                 }
                 else
                     Serial.println("failed to load json config");
@@ -49,9 +48,6 @@ ArduinoJson6200_F1::DynamicJsonDocument retrieveConfigFromMemory()
     }
     else
         Serial.println("failed to mount FS.");
-
-    // Serial.println(String("\nJson retrieved: " + configJsonStr));
-    // deserializeJson(configJson, configJsonStr);
 
     return configJson;
 }

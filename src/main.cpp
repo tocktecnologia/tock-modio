@@ -4,7 +4,7 @@
 #define LED_BUILTIN 32 // GPIO 2
 
 #include "tock_wm.h"
-#include "uart.h"
+#include "tock_uart.h"
 #include "tock_mqtt.h"
 
 DynamicJsonDocument configJson(FILE_CONFIG_SIZE);
